@@ -1,0 +1,76 @@
+{
+    "mainData": [
+        {
+            "id": 1,
+            "name": "a",
+            "sub": [
+                {
+                    "title": "A",
+                    "used": true
+                },
+                {
+                    "title": "B",
+                    "used": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "c",
+            "sub": [
+                {
+                    "title": "C",
+                    "used": true
+                },
+                {
+                    "title": "D",
+                    "used": false,
+                    "s_data": [
+                        {
+                            "s_data_id": 4,
+                            "s_data_value": 0.1
+                        },
+                        {
+                            "s_data_id": 5,
+                            "s_data_value": 0.2
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "moreData": [
+        {
+            "m_id": 3,
+            "m_name": "e",
+            "sub": [
+                {
+                    "s_title": "E",
+                    "s_used": true,
+                    "ext": {
+                        "cid": "3_1",
+                        "remark": "complex"
+                    }
+                },
+                {
+                    "s_title": "F",
+                    "s_used": false,
+                    "ext": {
+                        "cid": "3_2",
+                        "remark": "complex"
+                    },
+                    "children": [
+                        {
+                            "c_c_id": "3_2_1",
+                            "c_c_title": "321"
+                        },
+                        {
+                            "c_c_id": "3_2_2",
+                            "c_c_title": "322"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

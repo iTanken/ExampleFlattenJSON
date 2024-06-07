@@ -1,0 +1,64 @@
+[
+    {
+        "$.mainData[*].id": 1,
+        "$.mainData[*].name": "a",
+        "$.mainData[*].sub[*].title": "A",
+        "$.mainData[*].sub[*].used": true
+    },
+    {
+        "$.mainData[*].id": 1,
+        "$.mainData[*].name": "a",
+        "$.mainData[*].sub[*].title": "B",
+        "$.mainData[*].sub[*].used": false
+    },
+    {
+        "$.mainData[*].id": 2,
+        "$.mainData[*].name": "c",
+        "$.mainData[*].sub[*].title": "C",
+        "$.mainData[*].sub[*].used": true
+    },
+    {
+        "$.mainData[*].id": 2,
+        "$.mainData[*].name": "c",
+        "$.mainData[*].sub[*].title": "D",
+        "$.mainData[*].sub[*].used": false,
+        "$.mainData[*].sub[*].s_data[*].s_data_id": 4,
+        "$.mainData[*].sub[*].s_data[*].s_data_value": 0.1
+    },
+    {
+        "$.mainData[*].id": 2,
+        "$.mainData[*].name": "c",
+        "$.mainData[*].sub[*].title": "D",
+        "$.mainData[*].sub[*].used": false,
+        "$.mainData[*].sub[*].s_data[*].s_data_id": 5,
+        "$.mainData[*].sub[*].s_data[*].s_data_value": 0.2
+    },
+    {
+        "$.moreData[*].m_id": 3,
+        "$.moreData[*].m_name": "e",
+        "$.moreData[*].sub[*].s_title": "E",
+        "$.moreData[*].sub[*].s_used": true,
+        "$.moreData[*].sub[*].ext.cid": "3_1",
+        "$.moreData[*].sub[*].ext.remark": "complex"
+    },
+    {
+        "$.moreData[*].m_id": 3,
+        "$.moreData[*].m_name": "e",
+        "$.moreData[*].sub[*].s_title": "F",
+        "$.moreData[*].sub[*].s_used": false,
+        "$.moreData[*].sub[*].ext.cid": "3_2",
+        "$.moreData[*].sub[*].ext.remark": "complex",
+        "$.moreData[*].sub[*].children[*].c_c_id": "3_2_1",
+        "$.moreData[*].sub[*].children[*].c_c_title": "321"
+    },
+    {
+        "$.moreData[*].m_id": 3,
+        "$.moreData[*].m_name": "e",
+        "$.moreData[*].sub[*].s_title": "F",
+        "$.moreData[*].sub[*].s_used": false,
+        "$.moreData[*].sub[*].ext.cid": "3_2",
+        "$.moreData[*].sub[*].ext.remark": "complex",
+        "$.moreData[*].sub[*].children[*].c_c_id": "3_2_2",
+        "$.moreData[*].sub[*].children[*].c_c_title": "322"
+    }
+]
